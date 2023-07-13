@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    width: 1454px;
+    margin: 3px auto;
+}
+header{
+    background-image: linear-gradient(to right, rgb(0 0 0), rgb(255 255 255 / 59%));
+    height: 50px;
+    width: 100%;
+    border-radius: 10px;
+    border-bottom: 5px solid rgb(255, 255, 255);
+}
+nav{
+    width: 70%;
+    /* background-color: blue; */
+    float: left;
+    text-align: center;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    /* background-color: black; */
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    margin: 0px 7px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    /* background-color: red; */
+    display: inline-block;
+    width: 70px;
+    font-weight: bold;
+}
+#home{
+    margin-left: 15px;
+}
+nav ul li a:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+#logoBox{
+    width: 249px;
+    height: 50px;
+    line-height: 50px;
+    float: right;
+    /* background-color: rgb(0, 245, 245); */
+}
+#logo{
+    width: 44px;
+    padding: 3px 10px;
+
+}
+#h2Logo{
+    float: left;
+    padding-left: 7px;
+}
+
+
+main{
+    /* background-color: brown; */
+    width: 100%;
+    height: 500px;
+}
+#items{
+    text-align: center;
+    font-family: sans-serif;
+    margin: 9px;
+}
+#item{
+    /* background-color: #ededed; */
+    width: 337px;
+    height: 409px;
+    margin: 9px;
+    float: left;
+    border: 1px solid #bfbfbf;
+    border-radius: 13px;
+}
+#item:hover{
+    background-color: #ededed;
+}
+#img {
+    padding: 7px 0px;
+}
+#img img{
+    width: 298px;
+    height: 298px;
+    object-fit: scale-down;
+    border-radius: 19px;
+}
+#title {
+    margin: 9px 0;
+}
+#disc {
+    text-align: justify;
+    padding: 0 9px;
+}
+footer{
+    clear: both; 
+    height: 62px;
+    background-image: linear-gradient(to right, rgb(0 0 0), rgb(255 255 255 / 59%));
+    margin-top: 67px;
+    padding: 9px;
+    text-align: center;
+    color: #DCE0E1;
+    font-weight: bold;
+    border-radius: 15px;
+}
